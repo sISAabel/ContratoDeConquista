@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Tillana:wght@500&display=swap');
+
+:root {
+	--title: 'Merienda One', cursive;
+	--text: 'Tillana', cursive;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background-image: url('https://www.motosha.com/files/preview/2000x1333/21751-wooden-work-surface-texture-background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.aviso {
+	width: 35vw;
+	padding: 5em;
+	margin-top: 3em;
+	border-radius: 70px 0px 70px 0px;
+	box-shadow: 6px 7px 31px -13px rgba(0,0,0,1);
+	background: linear-gradient(0deg, rgba(190,181,128,1) 0%, rgba(247,226,150,1) 31%, rgba(252,231,150,1) 70%, rgba(218,207,146,1) 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: var(--title);
+	text-transform: capitalize;
+	font-size: 2.5em;
+}
+
+h4 {
+	font-family: var(--title);
+}
+
+p, li {
+	text-align: justify;
+	font-family: var(--text);
+	font-size: 1em;
+}
+
+#nombre {
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+#stewie {
+	margin-top: 3em;
+	width: 8em;
+	position: relative;
+	left: 80%;
+}
